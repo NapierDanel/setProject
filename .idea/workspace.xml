@@ -19,21 +19,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c9b7336-ed52-499a-98d9-77831b1d8906" name="Default Changelist" comment="added new docker sha256 + mongo:latest container">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/test_db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/setProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/setProject.iml" afterDir="false" />
+    <list default="true" id="6c9b7336-ed52-499a-98d9-77831b1d8906" name="Default Changelist" comment="added Dockerfile in db folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,9 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.db/Dockerfile" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.db/Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Docker Container SHA" />
       </list>
@@ -249,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612473311741</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added Dockerfile in db folder">
+      <created>1613133807981</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1613133807982</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -289,7 +286,8 @@
     <MESSAGE value="changed  maven.compiler.source and target to 1.15" />
     <MESSAGE value="added main method in the App.java file" />
     <MESSAGE value="set target module to 1.15" />
-    <option name="LAST_COMMIT_MESSAGE" value="set target module to 1.15" />
+    <MESSAGE value="added Dockerfile in db folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Dockerfile in db folder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1814" y="116" width="1006" height="643" key="#Docker" timestamp="1612472862227">
@@ -313,35 +311,35 @@
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state x="2023" y="285" width="426" height="493" key="FileChooserDialogImpl/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1612521212771" />
-    <state width="1872" height="255" key="GridCell.Tab.0.bottom" timestamp="1613133497020">
+    <state width="1872" height="255" key="GridCell.Tab.0.bottom" timestamp="1613134220463">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="255" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613133497020" />
+    <state width="1872" height="255" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613134220463" />
     <state width="1874" height="257" key="GridCell.Tab.0.bottom/1280.205.1920.1080/3200.0.1080.1920/0.232.1280.941@1280.205.1920.1080" timestamp="1611746395054" />
-    <state width="1872" height="255" key="GridCell.Tab.0.center" timestamp="1613133497019">
+    <state width="1872" height="255" key="GridCell.Tab.0.center" timestamp="1613134220463">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="255" key="GridCell.Tab.0.center/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613133497019" />
+    <state width="1872" height="255" key="GridCell.Tab.0.center/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613134220463" />
     <state width="1874" height="257" key="GridCell.Tab.0.center/1280.205.1920.1080/3200.0.1080.1920/0.232.1280.941@1280.205.1920.1080" timestamp="1611746395054" />
-    <state width="1872" height="255" key="GridCell.Tab.0.left" timestamp="1613133497018">
+    <state width="1872" height="255" key="GridCell.Tab.0.left" timestamp="1613134220463">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="255" key="GridCell.Tab.0.left/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613133497018" />
+    <state width="1872" height="255" key="GridCell.Tab.0.left/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613134220463" />
     <state width="1874" height="257" key="GridCell.Tab.0.left/1280.205.1920.1080/3200.0.1080.1920/0.232.1280.941@1280.205.1920.1080" timestamp="1611746395054" />
-    <state width="1872" height="255" key="GridCell.Tab.0.right" timestamp="1613133497019">
+    <state width="1872" height="255" key="GridCell.Tab.0.right" timestamp="1613134220463">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="255" key="GridCell.Tab.0.right/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613133497019" />
+    <state width="1872" height="255" key="GridCell.Tab.0.right/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613134220463" />
     <state width="1874" height="257" key="GridCell.Tab.0.right/1280.205.1920.1080/3200.0.1080.1920/0.232.1280.941@1280.205.1920.1080" timestamp="1611746395054" />
-    <state x="1729" y="160" width="1024" height="737" key="SettingsEditor" timestamp="1613133608542">
+    <state x="1729" y="160" width="1024" height="737" key="SettingsEditor" timestamp="1613134206664">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state x="1729" y="160" width="1024" height="737" key="SettingsEditor/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613133608542" />
+    <state x="1729" y="160" width="1024" height="737" key="SettingsEditor/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613134206664" />
     <state x="1729" y="365" width="1022" height="737" key="SettingsEditor/1280.205.1920.1080/3200.0.1080.1920/0.232.1280.941@1280.205.1920.1080" timestamp="1611746781336" />
-    <state x="1835" y="261" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1612518223089">
+    <state x="1835" y="261" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1613133809143">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state x="1835" y="261" width="802" height="543" key="Vcs.Push.Dialog.v2/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1612518223089" />
+    <state x="1835" y="261" width="802" height="543" key="Vcs.Push.Dialog.v2/1280.0.1920.1080/0.56.1280.1024/3200.56.1280.1024@1280.0.1920.1080" timestamp="1613133809143" />
     <state x="1835" y="466" width="800" height="535" key="Vcs.Push.Dialog.v2/1280.205.1920.1080/3200.0.1080.1920/0.232.1280.941@1280.205.1920.1080" timestamp="1611744766369" />
     <state x="2021" y="440" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612352523719">
       <screen x="1280" y="0" width="1920" height="1080" />
